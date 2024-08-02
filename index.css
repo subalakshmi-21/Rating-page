@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: "Overpass", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    width: 400px;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.container h1 {
+    padding-top: 15px;
+}
+
+.container p {
+    padding-top: 5px;
+    color: hsl(217, 12%, 63%);
+}
+
+.starIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 12%, 21%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.listContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.listContainer input[type="radio"] {
+    display: none;
+}
+
+.listContainer input[type="radio"]:checked + label {
+    background-color: hsl(25, 97%, 53%);
+    color: black;
+}
+
+label {
+    cursor: pointer;
+    width: 45px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: hsl(212, 12%, 21%);
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    list-style: none;
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+.submit-btn {
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    background-color: hsl(25, 97%, 53%);
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.list p:hover {
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: black;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.thankyou-state {
+    display: none;
+}
+
+.thankyou-state {
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0 auto; 
+}
+
+.thankyou-state img {
+    margin-top: 25px;
+}
+
+.output {
+    font-weight: 400;
+    /* width: fit-content; */
+    text-align: center;
+    margin-top: 30px;
+    background-color: hsl(212, 12%, 21%);
+    color: hsl(25, 97%, 53%);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.head-tag {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.thankyou-state p {
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    margin-top: 15px;
+    font-size: 17px;
+}
